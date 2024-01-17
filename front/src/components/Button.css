@@ -1,0 +1,113 @@
+.log_button {
+    background-color: #4f0877;
+    color: #FFFFFF;
+    border: none;
+    font-size: 16px;
+    cursor: pointer;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    padding: 20px 40px;
+    border-radius: 25px;
+    letter-spacing: 2px;
+    box-shadow: 0px 5px 10px #1c066e;
+    top: 550px;
+  }
+  
+.log_button:hover {
+    background-color: #1c066e;
+}
+
+
+.reg_button {
+    background-color: #4f0877;
+    color: #FFFFFF;
+    border: none;
+    font-size: 16px;
+    cursor: pointer;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    padding: 20px 40px;
+    border-radius: 25px;
+    letter-spacing: 2px;
+    box-shadow: 0px 5px 10px #1c066e;
+    top: 650px;
+  }
+ 
+.reg_button:hover {
+    background-color: #1c066e;
+}
+ 
+
+.popup__title {
+    top: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 30px;
+    font-family: 'Irish Grover', cursive;
+}
+
+  .form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 10px;
+    font-size: 20px;
+    font-family: 'Irish Grover', cursive;
+  }
+  
+  .form label {
+    margin-bottom: 10px;
+  }
+  
+  .form input {
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+  }
+  
+  .form input:focus {
+    outline: none;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+  }
+  
+  .form input + input {
+    margin-top: 20px;
+  }
+
+  .but_in {
+    margin-top: 20px;
+    margin-bottom: 5px;
+    background-color: #1c0246;
+    color: #FFFFFF;
+    border: none;
+    font-size: 16px;
+    cursor: pointer;
+    padding: 10px 20px;
+    border-radius: 25px;
+    letter-spacing: 2px;
+    box-shadow: 0px 5px 10px #1c066e;
+  }
+  
+  .but_in:hover {
+    background-color: #1c066e;
+  }
+
+.form select {
+    margin-top: 20px;
+    width: auto;
+    position: relative;
+    font-size: 20px;
+}
+  
+#profile-photo {
+    top: 60px;
+    margin-bottom: 20px;
+    display: block;
+    border-radius: 20%;
+    overflow: hidden;
+}
+  

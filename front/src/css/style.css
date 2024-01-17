@@ -1,0 +1,18 @@
+body {
+    position: relative;
+    line-height: 1.4;
+    color: #000;
+    min-width: 320px;
+    overflow-x: hidden;
+    
+    height: auto;
+    background-color: #8DB7F6;
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    font-size: 5em;
+    font-family: 'Irish Grover', cursive;
+  }
+
+/* background-image: url("../../picture/header.jpeg");*/

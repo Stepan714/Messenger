@@ -1,0 +1,477 @@
+{
+  "current_user": {
+    "id": 1,
+    "friends": [
+      1,
+      3
+    ],
+    "key": "b4f8b2ea9a1fabaa75c537a0a0a9350061fd1cf3",
+    "name": "Трифонов Степан",
+    "aboutme": "Люблю спорт",
+    "telephon": "+79506190966",
+    "city": "Москва",
+    "age": "22"
+  },
+  "current_chat": {
+    "id": 1
+  },
+  "users": [
+    {
+      "id": 1,
+      "name": "Трифонов Степан",
+      "age": "20",
+      "telephon": "+79506190966",
+      "city": "Москва",
+      "aboutme": "Люблю спорт",
+      "password": "1234",
+      "friends": [
+        1,
+        2,
+        40,
+        24,
+        null
+      ]
+    },
+    {
+      "id": 4,
+      "name": "Andrew",
+      "age": 20,
+      "telephon": "+79506190966",
+      "city": "Москва",
+      "aboutme": "Люблю спорт",
+      "friends": [],
+      "imageUrl": "./img/user-1.jpg"
+    },
+    {
+      "id": 2,
+      "name": "Roman",
+      "age": 20,
+      "telephon": "+79506190966",
+      "city": "Москва",
+      "aboutme": "Люблю спорт",
+      "friends": [],
+      "imageUrl": "./img/user-2.jpg"
+    },
+    {
+      "id": 3,
+      "name": "John",
+      "age": 20,
+      "telephon": "+79506190966",
+      "city": "Москва",
+      "aboutme": "Люблю спорт",
+      "friends": [],
+      "imageUrl": "./img/user-3.jpg"
+    },
+    {
+      "id": 23,
+      "name": "Ivan",
+      "age": 20,
+      "telephon": "+79506190966",
+      "city": "Москва",
+      "aboutme": "Люблю спорт",
+      "friends": [],
+      "imageUrl": "./img/user-23.jpg"
+    },
+    {
+      "id": 24,
+      "name": "Anna",
+      "age": 20,
+      "telephon": "+79506190966",
+      "city": "Москва",
+      "aboutme": "Люблю спорт",
+      "friends": [],
+      "imageUrl": "./img/user-24.jpg"
+    },
+    {
+      "id": 25,
+      "name": "Makar",
+      "age": 20,
+      "telephon": "+79506190966",
+      "city": "Москва",
+      "aboutme": "Люблю спорт",
+      "friends": [],
+      "imageUrl": "./img/user-25.jpg"
+    },
+    {
+      "id": 40,
+      "name": "Alex",
+      "age": 20,
+      "telephon": "+79506190966",
+      "city": "Москва",
+      "aboutme": "Люблю спорт",
+      "friends": [],
+      "imageUrl": "./img/user-40.jpg"
+    }
+  ],
+  "chats": [
+    {
+      "id": 1,
+      "type": "dialog",
+      "name": "Andrew",
+      "imageUrl": "./img/user-1.jpg",
+      "users": [
+        1,
+        4
+      ],
+      "history": [
+        {
+          "messageId": 1,
+          "text": "Hello!",
+          "userIdFrom": 1,
+          "date": "2023-09-23T12:23:43.090Z"
+        },
+        {
+          "messageId": 2,
+          "text": "Hi",
+          "userIdFrom": 4,
+          "date": "2023-11-27T12:26:43.090Z"
+        },
+        {
+          "messageId": 3,
+          "userIdFrom": 1,
+          "text": "здарова",
+          "date": "2023-11-28T09:03:00.622Z"
+        },
+        {
+          "messageId": 4,
+          "userIdFrom": 1,
+          "text": "rjdnglrsng",
+          "date": "2023-11-29T11:30:23.252Z"
+        },
+        {
+          "text": "Привет!!",
+          "userIdFrom": 1,
+          "date": "2023-12-13T06:38:19.811Z"
+        },
+        {
+          "text": "Привет!",
+          "userIdFrom": 1,
+          "date": "2023-12-13T06:40:47.700Z"
+        },
+        {
+          "text": "тэдтлтдлтлоилило",
+          "userIdFrom": 1,
+          "date": "2023-12-13T06:41:58.442Z"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "type": "dialog",
+      "name": "Roman",
+      "imageUrl": "./img/user-2.jpg",
+      "users": [
+        1,
+        2
+      ],
+      "history": [
+        {
+          "messageId": 1,
+          "text": "How are you!",
+          "userIdFrom": 1,
+          "date": "2022-12-02T12:23:43.090Z"
+        },
+        {
+          "messageId": 2,
+          "text": "good. may I call?",
+          "userIdFrom": 2,
+          "date": "2023-01-01T12:26:43.090Z"
+        },
+        {
+          "messageId": 3,
+          "text": "in 30 min ok?",
+          "userIdFrom": 2,
+          "date": "2023-01-01T13:10:23.090Z"
+        },
+        {
+          "messageId": 4,
+          "userIdFrom": 1,
+          "text": "Ok!",
+          "date": "2023-11-30T18:59:55.786Z"
+        },
+        {
+          "messageId": 5,
+          "userIdFrom": 1,
+          "text": "skrgjnskr",
+          "date": "2023-12-01T06:38:51.941Z"
+        },
+        {
+          "messageId": 6,
+          "userIdFrom": 1,
+          "text": "1",
+          "date": "2023-12-02T09:18:49.103Z"
+        },
+        {
+          "text": "Как ты?",
+          "userIdFrom": 1,
+          "date": "2023-12-11T19:20:05.429Z"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "type": "dialog",
+      "name": "John",
+      "imageUrl": "./img/user-3.jpg",
+      "users": [
+        1,
+        3
+      ],
+      "history": [
+        {
+          "messageId": 1,
+          "text": "привет",
+          "userIdFrom": 1,
+          "date": "1990-03-23T12:23:43.090Z"
+        },
+        {
+          "messageId": 2,
+          "text": "здравствуйте",
+          "userIdFrom": 3,
+          "date": "2023-01-01T12:26:43.090Z"
+        },
+        {
+          "messageId": 3,
+          "userIdFrom": 1,
+          "text": "segseg",
+          "date": "2023-11-29T12:31:38.551Z"
+        },
+        {
+          "messageId": 4,
+          "userIdFrom": 1,
+          "text": "gkjrngkjnsrglnlek;xmsgs",
+          "date": "2023-12-01T06:34:53.222Z"
+        },
+        {
+          "messageId": 5,
+          "userIdFrom": 1,
+          "text": "rskjgnkdjrngkesjnrlkjednrglkjnwtlkrjnwlkrtjnlwkjrntblkwjnrtkhjwnrlktjnwlnrth",
+          "date": "2023-12-01T06:34:58.129Z"
+        },
+        {
+          "messageId": 6,
+          "userIdFrom": 1,
+          "text": "wjgnwgw",
+          "date": "2023-12-01T06:36:49.868Z"
+        },
+        {
+          "messageId": 7,
+          "userIdFrom": 1,
+          "text": "wegbwjg\nwebgwkbhg\nwebgw",
+          "date": "2023-12-01T06:36:56.032Z"
+        },
+        {
+          "messageId": 8,
+          "userIdFrom": 1,
+          "text": "wgjnwknrgkjwr\nkwjrngkwjrgnk\n\nwkjgnrkwjrngk\n\n\n\ngwjngkw",
+          "date": "2023-12-01T06:37:06.136Z"
+        },
+        {
+          "messageId": 9,
+          "userIdFrom": 1,
+          "text": "srgknskrg",
+          "date": "2023-12-01T06:37:38.835Z"
+        },
+        {
+          "messageId": 10,
+          "userIdFrom": 1,
+          "text": "skrjgskjrngksjnrlkjrngkjhsebkrjghbsekjrglskejrgbljenrk",
+          "date": "2023-12-01T06:37:43.767Z"
+        },
+        {
+          "messageId": 11,
+          "userIdFrom": 1,
+          "text": "dhmdkhld\n\nwlekrmglkw",
+          "date": "2023-12-01T06:54:34.501Z"
+        },
+        {
+          "messageId": 12,
+          "userIdFrom": 1,
+          "text": "упылоуктпл\n\nкпдылкпдл\n\n\nпдыклпдылкьпд",
+          "date": "2023-12-01T10:07:14.074Z"
+        },
+        {
+          "text": "-9щ",
+          "userIdFrom": 1,
+          "date": "2023-12-11T19:36:47.399Z"
+        },
+        {
+          "text": "шшш7\\",
+          "userIdFrom": 1,
+          "date": "2023-12-11T19:36:53.975Z"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "type": "dialog",
+      "name": "Dialog_1_2",
+      "imageUrl": "./img/group-5.png",
+      "users": [
+        4,
+        2
+      ],
+      "history": [
+        {
+          "messageId": 1,
+          "text": "Ты делал домашку?",
+          "userIdFrom": 4,
+          "date": "1990-03-23T12:23:43.090Z"
+        },
+        {
+          "messageId": 3,
+          "text": "Ага",
+          "userIdFrom": 4,
+          "date": "2023-01-21T12:26:43.090Z"
+        },
+        {
+          "messageId": 4,
+          "userIdFrom": 2,
+          "text": "Как делать 3 номер?",
+          "date": "2023-11-29T12:08:10.216Z"
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "type": "dialog",
+      "name": "Job",
+      "imageUrl": "./img/group-6.png",
+      "users": [
+        2,
+        3
+      ],
+      "history": [
+        {
+          "messageId": 1,
+          "text": "Ты начал проект?",
+          "userIdFrom": 2,
+          "date": "2009-03-23T12:23:43.090Z"
+        },
+        {
+          "messageId": 2,
+          "text": "я еще не начинал(",
+          "userIdFrom": 3,
+          "date": "2023-01-01T12:26:43.090Z"
+        },
+        {
+          "messageId": 3,
+          "text": "Начинай.",
+          "userIdFrom": 2,
+          "date": "2023-01-21T12:26:43.090Z"
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "type": "dialog",
+      "name": "Alex",
+      "imageUrl": "./img/user-40.jpg",
+      "users": [
+        1,
+        40
+      ],
+      "history": [
+        {
+          "text": "Hello!",
+          "userIdFrom": 1,
+          "date": "2023-12-11T19:17:13.122Z"
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "type": "dialog",
+      "name": "Dialog_40_3",
+      "imageUrl": "./img/group-7.jpg",
+      "users": [
+        40,
+        3
+      ],
+      "history": []
+    },
+    {
+      "id": 8,
+      "type": "dialog",
+      "name": "Dialog_40_1",
+      "imageUrl": "./img/group-7.jpg",
+      "users": [
+        40,
+        4
+      ],
+      "history": [
+        {
+          "messageId": 1,
+          "userIdFrom": 4,
+          "text": "HI!",
+          "date": "2023-12-02T19:12:16.195Z"
+        }
+      ]
+    },
+    {
+      "type": "dialog",
+      "users": [
+        1,
+        25
+      ],
+      "history": [],
+      "name": "Makar",
+      "id": 11
+    },
+    {
+      "type": "dialog",
+      "users": [
+        1,
+        23
+      ],
+      "history": [
+        {
+          "text": "",
+          "userIdFrom": 1,
+          "date": "2023-12-11T19:47:17.981Z"
+        },
+        {
+          "text": "",
+          "userIdFrom": 1,
+          "date": "2023-12-11T19:47:18.481Z"
+        },
+        {
+          "text": "",
+          "userIdFrom": 1,
+          "date": "2023-12-11T19:47:18.509Z"
+        },
+        {
+          "text": "",
+          "userIdFrom": 1,
+          "date": "2023-12-11T19:47:18.539Z"
+        },
+        {
+          "text": "",
+          "userIdFrom": 1,
+          "date": "2023-12-11T19:47:18.569Z"
+        },
+        {
+          "text": "",
+          "userIdFrom": 1,
+          "date": "2023-12-11T19:47:18.599Z"
+        },
+        {
+          "text": "рррилило",
+          "userIdFrom": 1,
+          "date": "2023-12-11T19:47:21.996Z"
+        }
+      ],
+      "name": "Ivan",
+      "id": 12
+    },
+    {
+      "type": "dialog",
+      "users": [
+        1,
+        null
+      ],
+      "history": [],
+      "id": 13
+    }
+  ]
+}

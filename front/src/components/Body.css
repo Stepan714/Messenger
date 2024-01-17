@@ -1,0 +1,74 @@
+.home {
+    position: relative;
+  }
+  
+  .chat {
+    position: relative;
+    text-align: center;
+    padding: 10px;
+  }
+  
+  .chat h1 {
+    margin: 0;
+    font-weight: bold;
+  }
+  
+  .button_profile {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    position: absolute;
+    top: 20px;
+    left: 20px;
+  } 
+  
+  .button_profile img {
+    display: block;
+    width: 100%;
+    height: auto;
+  }
+  
+  .button_friends {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    position: absolute;
+    top: 200px;
+    left: 20px;
+  } 
+  
+  .button_friends img {
+    display: block;
+    width: 100%;
+    height: auto;
+  }
+  
+  .button_messages {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    position: absolute;
+    top: 380px;
+    left: 20px;
+  } 
+  
+  .button_messages img {
+    display: block;
+    width: 100%;
+    height: auto;
+  }
+  
+  .button_exit {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    position: absolute;
+    top: 560px;
+    left: 20px;
+  } 
+  
+  .button_exit img {
+    display: block;
+    width: 100%;
+    height: auto;
+  }

@@ -1,0 +1,41 @@
+.form_profile {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 250px;
+    font-size: 20px;
+    font-family: 'Irish Grover', cursive;
+  }
+  
+  .form_profile input {
+    margin-top: 20px;
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+  }
+  
+  .form_profile input + input {
+    margin-top: 20px;
+  }
+  
+  .save {
+    margin-top: 30px;
+    margin-bottom: 5px;
+    background-color: #1c0246;
+    color: #FFFFFF;
+    border: none;
+    font-size: 16px;
+    cursor: pointer;
+    padding: 10px 20px;
+    border-radius: 25px;
+    letter-spacing: 2px;
+    box-shadow: 0px 5px 10px #1c066e;
+  }
+  
+  .photo {
+    border-radius: 50%; /* устанавливаем радиус 50%, чтобы сделать круг */
+    width: 220px; /* задаем фиксированную ширину */
+    height: 220px; /* задаем фиксированную высоту */
+    margin-top: -220px; /* поднимаем картинку на половину ее высоты */
+  } 

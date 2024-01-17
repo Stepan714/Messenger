@@ -1,0 +1,12 @@
+.image {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 400px; /* задаем высоту */
+}
+
+.image img {
+  max-width: 180%; /* устанавливаем максимальную ширину */
+  max-height: 180%; /* устанавливаем максимальную высоту */
+  margin-top: -140px; /* поднимаем картинку немного выше центра */
+} 

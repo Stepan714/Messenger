@@ -1,0 +1,39 @@
+.home {
+    position: relative;
+  }
+  
+  .chat {
+    position: relative;
+    text-align: center;
+    padding: 10px;
+  }
+  
+  .chat h1 {
+    margin: 0;
+    font-weight: bold;
+  }
+
+  .friend-window {
+    width: 600px;
+    height: 500px;
+    overflow-y: scroll;
+    margin: 5px auto;
+    background-color: #8DB7F6;
+    border-radius: 10px;
+  }
+  
+  .tab-buttons {
+    position: relative;
+    text-align: center;
+    top: -50px;
+  }
+
+  .tab-buttons .us {
+    background-color: #052a42;
+    color: #fff;
+  }
+  
+  .tab-buttons .fr {
+    background-color: #052a42;
+    color: #fff;
+  }
